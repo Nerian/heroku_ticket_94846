@@ -19,4 +19,14 @@ class Test < Thor
     run('heroku run ruby -v -a kwjfbkaewjffhaskjlejfhjkrsfgrskjaLDENFJRWHVJENEKLNKLnlknlkdnlskvnslknvlksenlsk')
   end
 
+  desc "example3", ''
+  def example3
+    run("ruby -v")
+  end
+
+  desc "example4", ''
+  def example4
+    run("heroku ps --help")
+  end
+
 end
