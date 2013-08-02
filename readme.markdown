@@ -1,7 +1,7 @@
 # Issue:
 
 
-``bash
+```bash
 ➜  heroku_ruby_version git:(master) heroku run ruby -v
 Running `ruby -v` attached to terminal... up, run.8748
 ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-linux]
