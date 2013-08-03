@@ -35,4 +35,12 @@ class Test < Thor
     run("heroku ps --help")
   end
 
+  # ➜  heroku_ruby_version git:(master) ✗ thor test:example5
+  #          run  which heroku from "."
+  # /usr/local/heroku/bin/heroku
+  desc "example5", ''
+  def example5
+    run("which heroku")
+  end
+
 end
